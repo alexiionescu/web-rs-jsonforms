@@ -1,0 +1,24 @@
+[package]
+name = "app_common"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jsonforms = { path = "../jsonforms" }
+jsonforms_derive = { path = "../jsonforms_derive" }
+serde = { version = "1.0.160", features = ["derive"] }
+serde_json = "1.0.96"
+chrono = "0.4.24"
+derive_more = "0.99.17"
+dotenv = "0.15.0"
+log = "0.4.17"
+parse_duration = "2.1.1"
+lazy_static = "1.4.0"
+regex = "1.8.1"
+hmac = "0.12.1"
+jwt = "0.16.0"
+sha2 = "0.10.6"
+actix-web = "4.3.1"
+diesel = { version = "2.0.4", features = ["sqlite", "r2d2"] }

@@ -1,0 +1,7 @@
+CREATE TABLE "users" (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user TEXT NOT NULL UNIQUE,
+    name TEXT NOT NULL ,
+    password BLOB NOT NULL,
+    json_state TEXT NOT NULL
+);

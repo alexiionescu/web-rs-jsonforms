@@ -1,0 +1,16 @@
+[package]
+name = "user_app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jsonforms = { path = "../jsonforms" }
+jsonforms_derive = { path = "../jsonforms_derive" }
+user_app_common = { path = "../user_app_common"}
+app_common = { path = "../app_common"}
+serde = { version = "1.0.160", features = ["derive"] }
+serde_json = "1.0.96"
+log = "0.4.17"
+actix-web = "4.3.1"

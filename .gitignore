@@ -1,0 +1,15 @@
+/target
+Cargo.lock
+.DS_Store
+.keep
+.env
+
+wasm-lib/pkg
+
+#db files
+/db/*.sqlite
+
+# IDE - VSCode
+.vscode
+
+

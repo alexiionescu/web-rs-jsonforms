@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "server",
+    "jsonforms_derive",
+    "jsonforms",
+    "app_common",
+    "user_app_common",
+    "user_app",
+    "user_wasm_lib",
+]
